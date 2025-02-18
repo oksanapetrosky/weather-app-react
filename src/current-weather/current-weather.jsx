@@ -1,5 +1,5 @@
 // Updated CurrentWeather Component with Tailwind
-import { useDate } from "../../Dates/useDate";
+import { useDate } from "../dates/useDate";
 
 const CurrentWeather = ({ data }) => {
   const { date, time } = useDate();
