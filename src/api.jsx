@@ -6,6 +6,7 @@ export const geoApiOptions = {
 		'x-rapidapi-host': 'wft-geo-db.p.rapidapi.com'
 	}
 };
-export const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
-export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
-export const WEATHER_API_KEY = "449f26948f391bd86e09ea98adc90824";
+export const GEO_API_URL = import.meta.env.VITE_GEO_API_URL;
+export const WEATHER_API_URL = import.meta.env.VITE_APP_API_URL;
+export const WEATHER_API_KEY = import.meta.env.VITE_APP_API_KEY;
+
