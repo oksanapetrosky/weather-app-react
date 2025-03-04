@@ -5,7 +5,7 @@ const CurrentWeather = ({ data }) => {
   const { date, time } = useDate();
 
   return (
-    <div className="bg-white/20 backdrop-blur-md shadow-lg border border-white/20 rounded-lg p-4 text-white">
+    <div className="bg-white/20 backdrop-blur-md shadow-lg border border-white/20 rounded-lg p-4 text-white]">
       <div className="flex justify-around items-center">
         <img
           src={`icons/${data.weather[0].icon}.png`}

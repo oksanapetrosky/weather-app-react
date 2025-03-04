@@ -77,6 +77,7 @@ export default function App() {
         autoPlay
         loop
         muted
+        playsInline
         key={backgroundVideo}
       >
         <source src={backgroundVideo} type="video/mp4" />
